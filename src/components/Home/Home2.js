@@ -35,7 +35,7 @@ function Home2() {
                             Basically, I'm your one-stop shop for turning ideas into digital awesomeness.✨
 
 
-                            Yes, I can write code that would make a <i><b className="purple">Computer Dance</b></i> , But I also understand the real world. I've even collaborated with clients to launch a <i><b className="purple">Live Websites</b></i> - no pressure, right?
+                            Yes, I can write code that would make a <i><b className="purple">Computer Dance</b></i> , But I also understand the real world. I've even collaborated with clients to launch <i><b className="purple">Live Websites</b></i> - no pressure, right?
 
                             <br />
                             <br />
