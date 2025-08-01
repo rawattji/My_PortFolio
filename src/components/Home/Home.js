@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assests/home-main.svg";
+import homeLogo from "../../Assests/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -24,7 +24,11 @@ function Home() {
                 I'M
                 <strong className="main-name"> AMAN SINGH RAWAT</strong>
               </h1>
-
+              <h4 className="heading-name-2">
+                Former SDE Intern 
+                <strong className="main-name"> @Amazon</strong>
+              </h4>
+              
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>

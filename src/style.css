@@ -279,6 +279,10 @@ html {
     font-size: 2.5em !important;
     padding-left: 45px !important;
   }
+
+  .heading-name-2 {
+    padding-left: 45px !important;
+  }
   
   .main-name {
     color: #cd5ff8;
@@ -613,7 +617,7 @@ html {
   .resume {
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
+    justify-content: fit;
   }
   
   .resume-left {

@@ -11,27 +11,27 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Aman Singh Rawat </span>
             from <span className="purple"> Delhi, India.</span>
             <br />
-            I am currently Persuing my Btech in CST at MAIT
+            Recently Graduated from Maharja Agrasen insitute of technology (MAIT), Delhi, Looking for full time Opputunities
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from building better <span className="purple">code</span>, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Cricket
             </li>
             <li className="about-activity">
-              <ImPointRight /> Mythology
+              <ImPointRight /> Read about Mythology
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling & Physics
+              <ImPointRight /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">AmanRawat</footer>
+          <footer className="blockquote-footer">Aman Singh Rawat</footer>
         </blockquote>
       </Card.Body>
     </Card>
