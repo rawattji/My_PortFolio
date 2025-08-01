@@ -4,9 +4,8 @@ import ProjectCard from "./ProjectCards";
 import chromeExtension from '../../Assests/chromeExtension.png';
 import rushFashion from '../../Assests/rushFashion.png';
 import scrollDay from '../../Assests/scrollDay.png';
-
 import Particle from '../Particle';
-
+import workOrbit from '../../Assests/WorkOrbit.png'
 
 function Projects() {
   return (
@@ -22,14 +21,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chromeExtension}
+              imgPath={workOrbit}
               isBlog={false}
-              title="Activity Tracker"
-              description="This Chrome extension tracks your website usage in real-time, exposing hidden time sinks. Restrict distracting sites, 
-              set usage limits, and reclaim your productivity. 14 days of development, countless hours - all to empower yours
-              React & RubyonRails power this Chrome extension."
-              ghLink="https://github.com/rawattji/"
-              demoLink="https://drive.google.com/file/d/1dCANm1o_LkXPsLCX89FPD3Z6AS1x_EZo/view?usp=sharing"
+              title="WorkOrbit (in progress)"
+              description="Designed and developed a scalable, AI-powered project management platform for enterprise teams. Supports multi-tenant workspaces, real-time task updates using WebSockets, intelligent dashboards, and a structured task hierarchy (Objective → Project → Module → Action). Built with a focus on SOLID principles and system scalability."
+              ghLink="https://github.com/rawattji/TaskieV1"
+              demoLink="https://github.com/rawattji/TaskieV1"
             />
           </Col>
 
@@ -52,6 +49,19 @@ function Projects() {
               description="Created & Developed a website using Elementor with <HTML> tags, integrated JavaScript, and custom CSS. Implemented animated scroll effects transitioning from day to night, simulating sunrise and sunset."
               ghLink="https://github.com/rawattji/Scroll-Day"
               demoLink="https://rawattji.github.io/Scroll-Day/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chromeExtension}
+              isBlog={false}
+              title="Activity Tracker"
+              description="This Chrome extension tracks your website usage in real-time, exposing hidden time sinks. Restrict distracting sites, 
+              set usage limits, and reclaim your productivity. 14 days of development, countless hours - all to empower yours
+              React & RubyonRails power this Chrome extension."
+              ghLink="https://github.com/rawattji/"
+              demoLink="https://drive.google.com/file/d/1dCANm1o_LkXPsLCX89FPD3Z6AS1x_EZo/view?usp=sharing"
             />
           </Col>
         </Row>

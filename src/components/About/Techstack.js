@@ -6,7 +6,6 @@ import {
   DiReact,
   DiPython,
   DiJava,
-  DiRuby,
 } from "react-icons/di";
 import { FaWordpress } from "react-icons/fa";
 
@@ -22,9 +21,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiRuby />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
