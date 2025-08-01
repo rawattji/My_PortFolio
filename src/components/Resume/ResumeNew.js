@@ -30,29 +30,23 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Worker workerUrl={`//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
-            <div
-              style={{
-                border: "1px solid rgba(0, 0, 0, 0.3)",
-                height: "750px",
-              }}
-            >
-              <Viewer fileUrl={pdf} defaultScale={SpecialZoomLevel.PageFit} />
-            </div>
-          </Worker>
-        </Row>
+  <Worker workerUrl={`//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
+    <div
+      style={{
+        border: "1px solid rgba(255, 255, 255, 0.2)",
+        borderRadius: "8px",
+        width: "100%",
+        maxWidth: "900px",
+        margin: "auto",
+        height: "90vh",
+        overflow: "auto",
+      }}
+    >
+      <Viewer fileUrl={pdf} defaultScale={SpecialZoomLevel.PageWidth} />
+    </div>
+  </Worker>
+</Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
       </Container>
     </div>
   );
