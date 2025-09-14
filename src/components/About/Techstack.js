@@ -4,12 +4,11 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiPython,
   DiJava,
 } from "react-icons/di";
-import { FaWordpress, FaAws } from "react-icons/fa";
-import { SiTypescript, SiPostgresql, SiWebmoney, SiNodedotjs, SiCplusplus } from "react-icons/si";
-
+import { FaAws } from "react-icons/fa";
+import { SiTypescript, SiPostgresql, SiNodedotjs, SiCplusplus, SiRedis, SiMongodb, SiRedux, SiAmazondynamodb, SiExpress
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,7 +20,10 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
@@ -32,27 +34,29 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <div>DSA</div>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWebmoney title="WebGIS" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaWordpress />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNodedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazondynamodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
       </Col>
     </Row>
   );
