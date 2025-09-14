@@ -34,8 +34,9 @@ function Home2() {
 
                             <br />
                             <br />
-                            My playground? Languages from <i><b className="purple">C++</b></i> to <i> <b className="purple">JAVA</b></i> to <i> <b className="purple">JavaScript & Python</b></i>, frameworks like <i><b className="purple">React</b> to <b className="purple">Redux</b> to <b className="purple">WebGIS</b></i> - I speak them all fluently.
+                            My playground? Languages from <i><b className="purple">C++</b></i> to <i> <b className="purple">JAVA</b></i> to <i> <b className="purple">JavaScript & TypeScript</b></i>, frameworks like <i><b className="purple">React</b> to <b className="purple">Redux</b> to <b className="purple">WebGIS</b></i> - I speak them all fluently.
                             <br />What next?<b className="purple"> Databases? </b> Done.<br /> Version control with Git? Nailed it.
+                            <br />Backend?<b className="purple"> Node.js </b>
                             <br />
                             Basically, I'm your one-stop shop for turning ideas into digital awesomeness.✨
 
